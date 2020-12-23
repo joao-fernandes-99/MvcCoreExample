@@ -12,7 +12,5 @@ namespace CursoMVCDIO.Models
         [Display(Name = "Descrição")]
         public string descricao { get; set; }
 
-        public List<Produto> Produtos { get; set; }
-
     }
 }
