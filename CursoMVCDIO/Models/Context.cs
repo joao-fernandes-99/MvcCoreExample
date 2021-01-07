@@ -14,7 +14,7 @@ namespace CursoMVCDIO.Models
         protected override void OnConfiguring(DbContextOptionsBuilder dbContextOtionsBuilder)
         {
 
-            dbContextOtionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=Cursomvc;Integrated Security =True;User id=grupotcm;Password=22gatsu12ka92");
+            dbContextOtionsBuilder.UseSqlServer();
 
         }
 
